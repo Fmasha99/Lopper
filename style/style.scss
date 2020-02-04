@@ -1,15 +1,23 @@
 html, body {
     margin: 0;
+
     font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'Noticia Text', serif;
 }
 
 header {
     height: 828px;
-
     background: url("../assets/img/main background.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+.header-wrapper {
+    max-width: 1440px;
+    height: 828px;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-line {
@@ -23,7 +31,7 @@ header {
     padding-top: 61px;
 
     .logo {
-        font-family: Mplus 1p;
+        font-family: M PLUS 1p;
         font-style: normal;
         font-weight: 900;
         font-size: 24px;
@@ -48,7 +56,7 @@ header {
         margin-left: 90px;
 
         a {
-            font-family: Mplus 1p;
+            font-family:M PLUS 1p;
             font-style: normal;
             font-weight: 800;
             font-size: 14.4px;
@@ -79,7 +87,7 @@ header {
         }
 
         p {
-            font-family: Mplus 1p;
+            font-family: M PLUS 1p;
             font-style: normal;
             font-weight: 800;
             font-size: 14.4px;
@@ -116,7 +124,7 @@ header {
         width: 100%;
 
         p {
-            font-family: Mplus 1p;
+            font-family: M PLUS 1p;
             font-style: normal;
             font-weight: 800;
             font-size: 14.4px;
@@ -128,7 +136,7 @@ header {
         }
 
         .headline {
-            font-family: Mplus 1p;
+            font-family: M PLUS 1p;
             font-style: normal;
             font-weight: 900;
             font-size: 99px;
@@ -147,7 +155,7 @@ header {
 
 
         p {
-            font-family: Mplus 1p;
+            font-family:M PLUS 1p;
             font-style: normal;
             font-weight: 800;
             font-size: 12.6px;
@@ -167,21 +175,22 @@ header {
             padding: 2%;
         }
     } //scroll-container
-}
+} //header-container
 
 .subheader-container {
     display: flex;
     justify-content: space-between;
 
-    max-width: 833px;
+    max-width: 1015px;
     width: 100%;
 
     border: 1px solid rgba(255, 255, 255, 0.25);
 
     margin-top: 70px;
+    margin-left: -260px;
 
     .subheader {
-        font-family: Mplus 1p;
+        font-family: M PLUS 1p;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
@@ -192,7 +201,7 @@ header {
         margin: 0;
         padding-top: 37px;
         padding-bottom: 38px;
-        margin-left: 148px;
+        margin-left: 365px;
         
         color: #FCFCFC;
     }
@@ -209,4 +218,178 @@ header {
         border-radius: 50%;
         padding: 2.5% 2%;
     }
+} //subheader-container
+
+main {
+
+} //main
+
+.intro {
+
+} //intro
+
+.intro-container {
+    max-width: 1440px;
+
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.intro-container__item {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1293px;
+    margin-left: auto;
+    margin-top: 108px;
+
+    .text-container {
+        max-width: 460px;
+
+        .headline {
+            font-family: M PLUS 1p;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 12.6px;
+            line-height: 26px;
+            letter-spacing: 6px;
+            text-transform: uppercase;
+
+            margin: 0;
+
+            color: #F61067;
+        }
+
+        .intro-headline {
+            font-family: M PLUS 1p;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 45px;
+            line-height: 67px;
+
+            margin: 0;
+            margin-top: 18px;
+
+            color: #30233D;
+        }
+
+        .title {
+            font-family: M PLUS 1p;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 29px;
+
+            margin: 0;
+            margin-top: 10px;
+
+            color: #30233D;
+        }
+
+        .subtitle {
+            font-family: M PLUS 1p;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 29px;
+
+            margin: 0;
+            margin-top: 36px;
+
+            color: #776C82;
+        }
+
+        button {
+            border: none;
+            background: #F61067;
+            border-radius: 36px;
+
+            max-width: 197px;
+            width: 100%;
+
+            padding: 2.7% 9%;
+            margin: 0;
+            margin-top: 54px;
+            margin-bottom: 207px;
+
+            font-family: Mplus 1p;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13.5px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+            color: #FCFCFC;
+        }
+        
+    } //.text-container
+
+    .image-container {
+        max-width: 705px;
+        width: 100%;
+        max-height: 774px;
+
+        position: relative;
+
+        .background-image {
+            max-width: 441px;
+
+            position: relative;
+            z-index: 1;
+        }
+
+        .main-image {
+            position: relative;
+            z-index: 2;
+
+        }
+
+        .quote-text {
+            background-color: #30124E;
+
+            position: relative;
+            z-index: 3;
+
+            max-width: 377px;
+            width: 100%;
+
+            .open {
+                font-family: Noticia Text;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 144px;
+                line-height: 216px;
+                
+                color: #F4F4ED;
+                opacity: 0.25;
+            }
+
+            p {
+                font-family: Noticia Text;
+                font-style: italic;
+                font-weight: normal;
+                font-size: 22.5px;
+                line-height: 40px;
+                display: flex;
+                align-items: center;
+                
+                color: #FCFCFC;
+            }
+
+            .close {
+                font-family: Noticia Text;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 144px;
+                line-height: 216px;
+                
+                color: #F4F4ED;
+                opacity: 0.25;
+            }
+        }
+    }
+} //.intro-container__item
