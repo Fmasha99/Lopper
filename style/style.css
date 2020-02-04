@@ -1,0 +1,208 @@
+html, body {
+  margin: 0;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+header {
+  height: 828px;
+  background: url("../assets/img/main background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1173px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 61px;
+}
+
+.header-line .logo {
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 43px;
+  letter-spacing: 2px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #FCFCFC;
+}
+
+.header-line nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 361px;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 90px;
+}
+
+.header-line nav a {
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14.4px;
+  line-height: 30px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #FCFCFC;
+  opacity: 0.8;
+}
+
+.header-line .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 262px;
+  width: 100%;
+}
+
+.header-line .phone img {
+  height: 28.8px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-line .phone p {
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14.4px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #FCFCFC;
+}
+
+.header-line img {
+  height: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 138px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1169px;
+  width: 100%;
+}
+
+.header-container .headline-container {
+  max-width: 852px;
+  width: 100%;
+}
+
+.header-container .headline-container p {
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14.4px;
+  line-height: 30px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FCFCFC;
+}
+
+.header-container .headline-container .headline {
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 99px;
+  line-height: 118px;
+  color: #FCFCFC;
+}
+
+.header-container .headline-container .pink {
+  color: #f61067;
+}
+
+.header-container .scroll-container {
+  height: 318px;
+}
+
+.header-container .scroll-container p {
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #FCFCFC;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.header-container .scroll-container img {
+  height: 35px;
+  width: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.subheader-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 833px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  margin-top: 70px;
+}
+
+.subheader-container .subheader {
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding-top: 37px;
+  padding-bottom: 38px;
+  margin-left: 148px;
+  color: #FCFCFC;
+}
+
+.subheader-container img {
+  width: 14px;
+  height: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 39px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 2.5% 2%;
+}
+/*# sourceMappingURL=style.css.map */
