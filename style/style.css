@@ -707,4 +707,120 @@ header {
   padding: 1.15% 3.6%;
   color: #FCFCFC;
 }
+
+.testimomial {
+  background: #FCFCFC;
+}
+
+.testimonial-container {
+  max-width: 1440px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.testimonial-container .image-container {
+  max-width: 1440px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonial-container .image-container .faces {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-container .image-container .main {
+  max-width: 460px;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  margin-top: -126px;
+}
+
+.testimonial-container .image-container .quotes {
+  max-width: 92.25px;
+  max-height: 79.73px;
+  position: absolute;
+  z-index: 3;
+  margin-top: 302px;
+}
+
+.testimonial-container .text-container {
+  margin-top: 67px;
+  margin-bottom: 136px;
+}
+
+.testimonial-container .text-container .testimomial-text {
+  max-width: 1144px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.testimonial-container .text-container .testimomial-text .prev {
+  width: 36px;
+  height: 36px;
+  background: #F61067;
+  border: 1px solid #F61067;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.testimonial-container .text-container .testimomial-text span {
+  max-width: 754px;
+  font-family: Noticia Text;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 64px;
+  text-align: center;
+  color: #30233D;
+}
+
+.testimonial-container .text-container .testimomial-text .next {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #F61067;
+  background: #FCFCFC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.testimonial-container .text-container span {
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.testimonial-container .text-container .pink {
+  color: #F61067;
+}
 /*# sourceMappingURL=style.css.map */
