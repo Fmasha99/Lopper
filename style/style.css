@@ -235,6 +235,7 @@ header {
 
 .intro-container__item .text-container {
   max-width: 460px;
+  margin-top: 36px;
 }
 
 .intro-container__item .text-container .headline {
@@ -318,19 +319,25 @@ header {
 
 .intro-container__item .image-container .background-image {
   max-width: 441px;
-  position: relative;
+  position: absolute;
+  left: 260px;
   z-index: 1;
 }
 
 .intro-container__item .image-container .main-image {
-  position: relative;
+  position: absolute;
+  padding-right: 244px;
+  margin-top: 36px;
   z-index: 2;
 }
 
 .intro-container__item .image-container .quote-text {
   background-color: #30124E;
-  position: relative;
+  position: absolute;
+  margin-top: 36px;
+  margin-left: 324px;
   z-index: 3;
+  text-align: center;
   max-width: 377px;
   width: 100%;
 }
@@ -339,14 +346,18 @@ header {
   font-family: Noticia Text;
   font-style: italic;
   font-weight: bold;
-  font-size: 144px;
-  line-height: 216px;
+  font-size: 140px;
+  line-height: 194px;
   color: #F4F4ED;
   opacity: 0.25;
 }
 
 .intro-container__item .image-container .quote-text p {
   font-family: Noticia Text;
+  max-width: 255px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   font-style: italic;
   font-weight: normal;
   font-size: 22.5px;
@@ -364,8 +375,8 @@ header {
   font-family: Noticia Text;
   font-style: italic;
   font-weight: bold;
-  font-size: 144px;
-  line-height: 216px;
+  font-size: 140px;
+  line-height: 192px;
   color: #F4F4ED;
   opacity: 0.25;
 }
