@@ -425,7 +425,7 @@ header {
   color: #F61067;
 }
 
-.benefits-container__item .text-container .intro-headline {
+.benefits-container__item .text-container .benefits-headline {
   font-family: Mplus 1p;
   font-style: normal;
   font-weight: 500;
@@ -563,7 +563,148 @@ header {
 
 .services {
   background-color: #150433;
-  height: 1548px;
   margin-top: -231px;
+}
+
+.services-container {
+  max-width: 1104px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 324px;
+  padding-bottom: 261px;
+}
+
+.services-container .text-container {
+  max-width: 558px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.services-container .text-container .headline {
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #F61067;
+}
+
+.services-container .text-container .services-headline {
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 67px;
+  text-align: center;
+  margin: 0;
+  margin-top: 12px;
+  color: #FCFCFC;
+}
+
+.services-container .text-container .title {
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  margin: 0;
+  margin-top: 23px;
+  padding-bottom: 20px;
+  color: #FCFCFC;
+}
+
+.services-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+.services-container ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 318px;
+  margin-top: 56px;
+}
+
+.services-container ul li img {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  max-width: 72px;
+  max-height: 72px;
+}
+
+.services-container ul li span {
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #00F0B5;
+  margin-top: 18px;
+}
+
+.services-container ul li .pink {
+  color: #F61067;
+}
+
+.services-container ul li .orange {
+  color: #F67110;
+}
+
+.services-container ul li p {
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16.2px;
+  line-height: 26px;
+  color: #FCFCFC;
+  margin-top: 27px;
+}
+
+.services-container button {
+  border: none;
+  background: #F61067;
+  border-radius: 36px;
+  max-width: 197px;
+  width: 100%;
+  margin: 0;
+  margin-top: 74px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.5px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 1.15% 3.6%;
+  color: #FCFCFC;
 }
 /*# sourceMappingURL=style.css.map */
