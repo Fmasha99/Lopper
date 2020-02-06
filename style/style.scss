@@ -67,7 +67,13 @@ header {
             letter-spacing: 2px;
 
             color: #FCFCFC;
-            opacity: 0.8;
+
+            transition: font-size 0.5s;
+
+                &:hover {
+                    font-size: 16px;
+                    color: #F61067;
+                }
         }
 
     } //nav
@@ -95,6 +101,12 @@ header {
             letter-spacing: 2px;
 
             color: #FCFCFC;
+            transition: font-size 0.5s;
+
+            &:hover {
+                font-size: 16px;
+                color: #F61067;
+            }
         }
     }
 
@@ -1068,6 +1080,13 @@ footer {
                     text-decoration: none;
 
                     color: #FCFCFC;
+
+                    transition: font-size 0.5s;
+
+                    &:hover {
+                        font-size: 14px;
+                        color: #F61067;
+                    }
                 }
             }
         }
@@ -1107,13 +1126,21 @@ footer {
                     text-decoration: none;
 
                     color: #FCFCFC;
+                    transition: font-size 0.5s;
+
+                    &:hover {
+                        font-size: 14px;
+                        color: #F61067;
+                    }
                 }
             }
         }
     } //services-container
 
     .contact-us-container {
+        max-width: 168px;
         margin-left: 86px;
+
 
         span {
             font-family: Mplus 1p;
@@ -1146,6 +1173,12 @@ footer {
 
                     color: #FCFCFC;
                     mix-blend-mode: normal;
+                    transition: font-size 0.5s;
+
+                    &:hover {
+                        font-size: 17px;
+                        color: #F61067;
+                    }
 
                    
                 }
@@ -1167,7 +1200,7 @@ footer {
     } //contact-us-container
 
     .follow-us-container {
-        margin-left: 128px;
+        padding-left: 130px;
         max-width: 264px;
         width: 100%;
 
@@ -1194,6 +1227,19 @@ footer {
             display: flex;
             justify-content: space-between;
 
+            li {
+
+                a {
+                    
+                    img {
+                        transition: transform 0.5s;
+
+                        &:hover {
+                            transform: scale(1.5);
+                        }
+                    }
+                }
+            }
 
         }
     } //.follow-us-container

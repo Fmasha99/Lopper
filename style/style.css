@@ -67,7 +67,13 @@ header {
   text-decoration: none;
   letter-spacing: 2px;
   color: #FCFCFC;
-  opacity: 0.8;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+}
+
+.header-line nav a:hover {
+  font-size: 16px;
+  color: #F61067;
 }
 
 .header-line .phone {
@@ -95,6 +101,13 @@ header {
   line-height: 30px;
   letter-spacing: 2px;
   color: #FCFCFC;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+}
+
+.header-line .phone p:hover {
+  font-size: 16px;
+  color: #F61067;
 }
 
 .header-line img {
@@ -988,6 +1001,13 @@ footer {
   letter-spacing: 1px;
   text-decoration: none;
   color: #FCFCFC;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+}
+
+.information-block .menu-container ul li a:hover {
+  font-size: 14px;
+  color: #F61067;
 }
 
 .information-block .service-container {
@@ -1020,9 +1040,17 @@ footer {
   letter-spacing: 1px;
   text-decoration: none;
   color: #FCFCFC;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+}
+
+.information-block .service-container ul li a:hover {
+  font-size: 14px;
+  color: #F61067;
 }
 
 .information-block .contact-us-container {
+  max-width: 168px;
   margin-left: 86px;
 }
 
@@ -1052,6 +1080,13 @@ footer {
   line-height: 26px;
   color: #FCFCFC;
   mix-blend-mode: normal;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+}
+
+.information-block .contact-us-container ul li a:hover {
+  font-size: 17px;
+  color: #F61067;
 }
 
 .information-block .contact-us-container ul li #mail {
@@ -1069,7 +1104,7 @@ footer {
 }
 
 .information-block .follow-us-container {
-  margin-left: 128px;
+  padding-left: 130px;
   max-width: 264px;
   width: 100%;
 }
@@ -1095,5 +1130,17 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.information-block .follow-us-container ul li a img {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.information-block .follow-us-container ul li a img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 /*# sourceMappingURL=style.css.map */
