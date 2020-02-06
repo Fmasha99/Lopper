@@ -5,8 +5,42 @@ html {
 
 body {
   margin: 0;
-  font-family: 'M PLUS 1p', sans-serif;
   font-family: 'Noticia Text', serif;
+}
+
+@font-face {
+  font-family: 'M PLUS 1p thin';
+  src: url("../assets/fonts/MPLUS1p-Thin.ttf");
+}
+
+@font-face {
+  font-family: 'M PLUS 1p regular';
+  src: url("../assets/fonts/MPLUS1p-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'M PLUS 1p medium';
+  src: url("../assets/fonts/MPLUS1p-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'M PLUS 1p light';
+  src: url("../assets/fonts/MPLUS1p-Light.ttf");
+}
+
+@font-face {
+  font-family: 'M PLUS 1p bold';
+  src: url("../assets/fonts/MPLUS1p-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'M PLUS 1p extrabold';
+  src: url("../assets/fonts/MPLUS1p-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: 'M PLUS 1p black';
+  src: url("../assets/fonts/MPLUS1p-Black.ttf");
 }
 
 header {
@@ -38,7 +72,7 @@ header {
 }
 
 .header-line .logo {
-  font-family: M PLUS 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -64,7 +98,7 @@ header {
 }
 
 .header-line nav a {
-  font-family: M PLUS 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 800;
   font-size: 14.4px;
@@ -99,7 +133,7 @@ header {
 }
 
 .header-line .phone a {
-  font-family: M PLUS 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 800;
   font-size: 14.4px;
@@ -143,7 +177,7 @@ header {
 }
 
 .header-container .headline-container p {
-  font-family: M PLUS 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 800;
   font-size: 14.4px;
@@ -154,7 +188,7 @@ header {
 }
 
 .header-container .headline-container .headline {
-  font-family: M PLUS 1p;
+  font-family: 'M PLUS 1p black';
   font-style: normal;
   font-weight: 900;
   font-size: 99px;
@@ -190,7 +224,7 @@ header {
 }
 
 .header-container .scroll-container a {
-  font-family: M PLUS 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 800;
   font-size: 12.6px;
@@ -249,7 +283,7 @@ header {
 }
 
 .subheader-container .subheader {
-  font-family: M PLUS 1p;
+  font-family: 'M PLUS 1p regular';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -319,7 +353,7 @@ main {
 }
 
 .intro-container__item .text-container .headline {
-  font-family: M PLUS 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 800;
   font-size: 12.6px;
@@ -331,7 +365,7 @@ main {
 }
 
 .intro-container__item .text-container .intro-headline {
-  font-family: M PLUS 1p;
+  font-family: 'M PLUS 1p medium';
   font-style: normal;
   font-weight: 500;
   font-size: 45px;
@@ -342,7 +376,7 @@ main {
 }
 
 .intro-container__item .text-container .title {
-  font-family: M PLUS 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -353,7 +387,7 @@ main {
 }
 
 .intro-container__item .text-container .subtitle {
-  font-family: M PLUS 1p;
+  font-family: 'M PLUS 1p regular';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -373,7 +407,7 @@ main {
   margin: 0;
   margin-top: 54px;
   margin-bottom: 207px;
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p medium';
   font-style: normal;
   font-weight: 500;
   font-size: 13.5px;
@@ -432,7 +466,7 @@ main {
 }
 
 .intro-container__item .image-container .quote-text .open {
-  font-family: Noticia Text;
+  font-family: 'Noticia Text';
   font-style: italic;
   font-weight: bold;
   font-size: 140px;
@@ -442,7 +476,7 @@ main {
 }
 
 .intro-container__item .image-container .quote-text p {
-  font-family: Noticia Text;
+  font-family: 'Noticia Text';
   max-width: 255px;
   margin: 0;
   margin-left: auto;
@@ -461,7 +495,7 @@ main {
 }
 
 .intro-container__item .image-container .quote-text .close {
-  font-family: Noticia Text;
+  font-family: 'Noticia Text';
   font-style: italic;
   font-weight: bold;
   font-size: 140px;
@@ -503,7 +537,7 @@ main {
 }
 
 .benefits-container__item .text-container .headline {
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 800;
   font-size: 12.6px;
@@ -515,7 +549,7 @@ main {
 }
 
 .benefits-container__item .text-container .benefits-headline {
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p medium';
   font-style: normal;
   font-weight: 500;
   font-size: 45px;
@@ -526,7 +560,7 @@ main {
 }
 
 .benefits-container__item .text-container .title {
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -547,7 +581,7 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p regular';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -566,7 +600,7 @@ main {
   padding: 2.7% 9%;
   margin: 0;
   margin-top: 48px;
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p medium';
   font-style: normal;
   font-weight: 500;
   font-size: 13.5px;
@@ -605,7 +639,7 @@ main {
 }
 
 .benefits-container__item .image-container p {
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p black';
   font-style: normal;
   font-weight: 800;
   font-size: 12.6px;
@@ -699,7 +733,7 @@ main {
 }
 
 .services-container .text-container .headline {
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 800;
   font-size: 12.6px;
@@ -712,7 +746,7 @@ main {
 }
 
 .services-container .text-container .services-headline {
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p medium';
   font-style: normal;
   font-weight: 500;
   font-size: 45px;
@@ -724,7 +758,7 @@ main {
 }
 
 .services-container .text-container .title {
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -768,7 +802,7 @@ main {
 }
 
 .services-container ul li span {
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p medium';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -786,7 +820,7 @@ main {
 }
 
 .services-container ul li p {
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p regular';
   font-style: normal;
   font-weight: normal;
   font-size: 16.2px;
@@ -805,7 +839,7 @@ main {
   margin-top: 74px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p medium';
   font-style: normal;
   font-weight: 500;
   font-size: 13.5px;
@@ -1011,7 +1045,7 @@ main {
 }
 
 .testimonial-container .text-container span {
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p regular';
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -1033,7 +1067,7 @@ main {
 }
 
 .newsletter span {
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p medium';
   font-style: normal;
   font-weight: 500;
   font-size: 45px;
@@ -1043,7 +1077,7 @@ main {
 }
 
 .newsletter p {
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p medium';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -1069,7 +1103,7 @@ main {
 .newsletter .input {
   max-width: 331px;
   width: 100%;
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -1095,7 +1129,7 @@ main {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 800;
   font-size: 12.6px;
@@ -1157,7 +1191,7 @@ footer {
 }
 
 .information-block .logo-container span {
-  font-family: Mplus 1p;
+  font-family: 'M PLUS 1p extrabold';
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -1167,7 +1201,7 @@ footer {
 }
 
 .information-block .logo-container p {
-  font-family: Mplus 1p;
+  font-family: 'Mplus 1p';
   font-style: normal;
   font-weight: normal;
   font-size: 16.2px;
@@ -1176,7 +1210,7 @@ footer {
 }
 
 .information-block .menu-container span {
-  font-family: Mplus 1p;
+  font-family: 'Mplus 1p';
   font-style: normal;
   font-weight: 800;
   font-size: 12.6px;
@@ -1193,7 +1227,7 @@ footer {
 }
 
 .information-block .menu-container ul li a {
-  font-family: Mplus 1p Bold;
+  font-family: 'Mplus 1p Bold';
   font-style: normal;
   font-weight: bold;
   font-size: 12.6px;
@@ -1215,7 +1249,7 @@ footer {
 }
 
 .information-block .service-container span {
-  font-family: Mplus 1p;
+  font-family: 'Mplus 1p';
   font-style: normal;
   font-weight: 800;
   font-size: 12.6px;
@@ -1232,7 +1266,7 @@ footer {
 }
 
 .information-block .service-container ul li a {
-  font-family: Mplus 1p Bold;
+  font-family: 'Mplus 1p Bold';
   font-style: normal;
   font-weight: bold;
   font-size: 12.6px;
@@ -1255,7 +1289,7 @@ footer {
 }
 
 .information-block .contact-us-container span {
-  font-family: Mplus 1p;
+  font-family: 'Mplus 1p';
   font-style: normal;
   font-weight: 800;
   font-size: 12.6px;
@@ -1273,7 +1307,7 @@ footer {
 
 .information-block .contact-us-container ul li a {
   text-decoration: none;
-  font-family: Mplus 1p;
+  font-family: 'Mplus 1p Bold';
   font-style: normal;
   font-weight: normal;
   font-size: 16.2px;
@@ -1309,7 +1343,7 @@ footer {
 }
 
 .information-block .follow-us-container span {
-  font-family: Mplus 1p;
+  font-family: 'Mplus 1p';
   font-style: normal;
   font-weight: 800;
   font-size: 12.6px;
