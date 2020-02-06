@@ -67,12 +67,12 @@ header {
   text-decoration: none;
   letter-spacing: 2px;
   color: #FCFCFC;
-  -webkit-transition: font-size 0.5s;
-  transition: font-size 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .header-line nav a:hover {
-  font-size: 16px;
+  font-size: 15px;
   color: #F61067;
 }
 
@@ -93,20 +93,22 @@ header {
   margin-bottom: auto;
 }
 
-.header-line .phone p {
+.header-line .phone a {
   font-family: M PLUS 1p;
   font-style: normal;
   font-weight: 800;
   font-size: 14.4px;
   line-height: 30px;
   letter-spacing: 2px;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: none;
   color: #FCFCFC;
-  -webkit-transition: font-size 0.5s;
-  transition: font-size 0.5s;
+  -webkit-transition: font-size 0.5s, color 0.5s;
+  transition: font-size 0.5s, color 0.5s;
 }
 
-.header-line .phone p:hover {
-  font-size: 16px;
+.header-line .phone a:hover {
   color: #F61067;
 }
 
@@ -160,10 +162,29 @@ header {
 }
 
 .header-container .scroll-container {
-  height: 318px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 343px;
+  max-width: 29px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
 }
 
-.header-container .scroll-container p {
+.header-container .scroll-container a {
   font-family: M PLUS 1p;
   font-style: normal;
   font-weight: 800;
@@ -171,9 +192,15 @@ header {
   line-height: 26px;
   letter-spacing: 6px;
   text-transform: uppercase;
+  text-decoration: none;
   color: #FCFCFC;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-writing-mode: tb;
+      -ms-writing-mode: tb;
+          writing-mode: tb;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
 }
 
 .header-container .scroll-container img {
@@ -181,7 +208,23 @@ header {
   width: 9px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  padding: 2%;
+  padding: 10% 10%;
+  -webkit-transition: border-color 0.5s;
+  transition: border-color 0.5s;
+}
+
+.header-container .scroll-container:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.header-container .scroll-container:hover a {
+  color: #f61067;
+}
+
+.header-container .scroll-container:hover img {
+  border-color: #f61067;
 }
 
 .subheader-container {
@@ -194,6 +237,8 @@ header {
   max-width: 1015px;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.25);
+  -webkit-transition: border 0.5s, border-radius 1s;
+  transition: border 0.5s, border-radius 1s;
   margin-top: 70px;
   margin-left: -260px;
 }
@@ -210,6 +255,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: none;
   margin: 0;
   padding-top: 37px;
   padding-bottom: 38px;
@@ -226,6 +272,18 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   padding: 2.5% 2%;
+  -webkit-transition: border 0.5s, margin-right 1s;
+  transition: border 0.5s, margin-right 1s;
+}
+
+.subheader-container:hover {
+  border: 1.5px solid #F61067;
+  border-radius: 0 50px 50px 0;
+}
+
+.subheader-container:hover img {
+  margin-right: 20px;
+  border: 2px solid #F61067;
 }
 
 .intro-container {
@@ -321,6 +379,15 @@ header {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #FCFCFC;
+  border: 2px solid;
+  -webkit-transition: background-color 0.5s, color 0.5s, border 0.5s;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+.intro-container__item .text-container button:hover {
+  background: #FCFCFC;
+  color: #F61067;
+  border: 2px solid #F61067;
 }
 
 .intro-container__item .image-container {
@@ -505,12 +572,27 @@ header {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #FCFCFC;
+  border: 2px solid #30124e;
+  -webkit-transition: background-color 0.5s, color 0.5s, border 0.5s;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+.benefits-container__item .text-container button:hover {
+  background: #30124e;
+  color: #F61067;
+  border: 2px solid #F61067;
 }
 
 .benefits-container__item .image-container {
   max-width: 558px;
   width: 100%;
   margin-top: 198px;
+}
+
+.benefits-container__item .image-container .image-container__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .benefits-container__item .image-container p {
@@ -530,8 +612,11 @@ header {
   text-transform: uppercase;
   /* Colors/Secondary_100 */
   color: #5E239D;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-writing-mode: tb;
+      -ms-writing-mode: tb;
+          writing-mode: tb;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .benefits-container__item .image-container .slider-container {
@@ -545,6 +630,7 @@ header {
           justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
   padding-left: 130px;
 }
 
@@ -572,11 +658,18 @@ header {
   border: 1px solid white;
   border-radius: 50%;
   padding: 5%;
+  -webkit-transition: border 0.5s, background-color 1s;
+  transition: border 0.5s, background-color 1s;
+}
+
+.benefits-container__item .image-container .slider-container img:hover {
+  border: 1px solid #F61067;
+  background-color: #F61067;
 }
 
 .services {
   background-color: #150433;
-  margin-top: -231px;
+  margin-top: -235px;
 }
 
 .services-container {
@@ -719,6 +812,15 @@ header {
   text-transform: uppercase;
   padding: 1.15% 3.6%;
   color: #FCFCFC;
+  border: 2px solid #150433;
+  -webkit-transition: background-color 0.5s, color 0.5s, border 0.5s;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+.services-container button:hover {
+  background: #150433;
+  color: #F61067;
+  border: 2px solid #F61067;
 }
 
 .testimonial {
@@ -793,6 +895,32 @@ header {
 .testimonial-container .text-container .testimomial-text .prev {
   width: 36px;
   height: 36px;
+  border: 1px solid #F61067;
+  background: #FCFCFC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.testimonial-container .text-container .testimomial-text .prev .active {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-container .text-container .testimomial-text .prev .hover {
+  display: none;
+}
+
+.testimonial-container .text-container .testimomial-text .prev:hover {
+  width: 36px;
+  height: 36px;
   background: #F61067;
   border: 1px solid #F61067;
   -webkit-box-sizing: border-box;
@@ -800,6 +928,18 @@ header {
   border-radius: 50%;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.testimonial-container .text-container .testimomial-text .prev:hover .hover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.testimonial-container .text-container .testimomial-text .prev:hover .active {
+  display: none;
 }
 
 .testimonial-container .text-container .testimomial-text span {
@@ -823,6 +963,42 @@ header {
   border-radius: 50%;
   margin-top: auto;
   margin-bottom: auto;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.testimonial-container .text-container .testimomial-text .next .active {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-container .text-container .testimomial-text .next .hover {
+  display: none;
+}
+
+.testimonial-container .text-container .testimomial-text .next:hover {
+  width: 36px;
+  height: 36px;
+  background: #F61067;
+  border: 1px solid #F61067;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.testimonial-container .text-container .testimomial-text .next:hover .hover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.testimonial-container .text-container .testimomial-text .next:hover .active {
+  display: none;
 }
 
 .testimonial-container .text-container span {
@@ -879,10 +1055,11 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-bottom: 3px solid #F4F4ED;
 }
 
 .newsletter .input {
+  max-width: 331px;
+  width: 100%;
   font-family: Mplus 1p;
   font-style: normal;
   font-weight: 800;
@@ -892,6 +1069,13 @@ header {
   text-transform: uppercase;
   color: #9B94A3;
   border: none;
+  border-bottom: 3px solid #F4F4ED;
+  -webkit-transition: border-bottom 0.5s;
+  transition: border-bottom 0.5s;
+}
+
+.newsletter .input:hover {
+  border-bottom: 3px solid #F61067;
 }
 
 .newsletter .submit {
@@ -917,6 +1101,13 @@ header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 242, 242, 0.5)), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
   border: none;
+  border-bottom: 3px solid #F4F4ED;
+  -webkit-transition: border-bottom 0.5s;
+  transition: border-bottom 0.5s;
+}
+
+.newsletter .submit:hover {
+  border-bottom: 3px solid #F61067;
 }
 
 footer {
@@ -1001,8 +1192,8 @@ footer {
   letter-spacing: 1px;
   text-decoration: none;
   color: #FCFCFC;
-  -webkit-transition: font-size 0.5s;
-  transition: font-size 0.5s;
+  -webkit-transition: font-size 0.5s, color 0.5s;
+  transition: font-size 0.5s, color 0.5s;
 }
 
 .information-block .menu-container ul li a:hover {
@@ -1040,8 +1231,8 @@ footer {
   letter-spacing: 1px;
   text-decoration: none;
   color: #FCFCFC;
-  -webkit-transition: font-size 0.5s;
-  transition: font-size 0.5s;
+  -webkit-transition: font-size 0.5s, color 0.5s;
+  transition: font-size 0.5s, color 0.5s;
 }
 
 .information-block .service-container ul li a:hover {
@@ -1080,12 +1271,11 @@ footer {
   line-height: 26px;
   color: #FCFCFC;
   mix-blend-mode: normal;
-  -webkit-transition: font-size 0.5s;
-  transition: font-size 0.5s;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
 }
 
 .information-block .contact-us-container ul li a:hover {
-  font-size: 17px;
   color: #F61067;
 }
 

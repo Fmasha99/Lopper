@@ -68,12 +68,12 @@ header {
 
             color: #FCFCFC;
 
-            transition: font-size 0.5s;
+            transition: all 0.5s;
 
-                &:hover {
-                    font-size: 16px;
-                    color: #F61067;
-                }
+            &:hover {
+                font-size: 15px;
+                color: #F61067;
+            }
         }
 
     } //nav
@@ -92,7 +92,7 @@ header {
             margin-bottom: auto;
         }
 
-        p {
+        a {
             font-family: M PLUS 1p;
             font-style: normal;
             font-weight: 800;
@@ -100,11 +100,15 @@ header {
             line-height: 30px;
             letter-spacing: 2px;
 
+            margin-top: auto;
+            margin-bottom: auto;
+
+            text-decoration: none;
+
             color: #FCFCFC;
-            transition: font-size 0.5s;
+            transition: font-size 0.5s, color 0.5s;
 
             &:hover {
-                font-size: 16px;
                 color: #F61067;
             }
         }
@@ -162,11 +166,21 @@ header {
     }
 
     .scroll-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
 
-        height: 318px;
+        height: 343px;
+        max-width: 29px;
+        width: 100%;
+
+        align-items: center;
+        text-align: center;
+
+        transition: transform 1s;
 
 
-        p {
+        a {
             font-family:M PLUS 1p;
             font-style: normal;
             font-weight: 800;
@@ -175,8 +189,14 @@ header {
             letter-spacing: 6px;
             text-transform: uppercase;
 
+            text-decoration: none;
+
             color: #FCFCFC;
-            transform: rotate(90deg);
+            writing-mode: tb;
+            margin-left: auto;
+            margin-right: auto;
+
+            transition: color 0.5s;
         }
 
         img {
@@ -184,7 +204,22 @@ header {
             width: 9px;
             border: 1px solid rgba(255, 255, 255, 0.5);
             border-radius: 10px;
-            padding: 2%;
+            padding: 10% 10%;
+
+            transition: border-color 0.5s;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+
+            a {
+                color: rgb(246,16,103);
+            }
+
+            img {
+                border-color: rgb(246,16,103);
+            }
         }
     } //scroll-container
 } //header-container
@@ -197,6 +232,7 @@ header {
     width: 100%;
 
     border: 1px solid rgba(255, 255, 255, 0.25);
+    transition: border 0.5s, border-radius 1s,;
 
     margin-top: 70px;
     margin-left: -260px;
@@ -210,12 +246,15 @@ header {
         display: flex;
         align-items: center;
 
+        text-decoration: none;
+
         margin: 0;
         padding-top: 37px;
         padding-bottom: 38px;
         margin-left: 365px;
         
         color: #FCFCFC;
+        
     }
 
     img {
@@ -229,6 +268,18 @@ header {
         border: 1px solid rgba(255, 255, 255, 0.5);
         border-radius: 50%;
         padding: 2.5% 2%;
+
+        transition: border 0.5s, margin-right 1s;
+    }
+
+    &:hover {
+        border: 1.5px solid #F61067;
+        border-radius: 0 50px 50px 0;
+
+        img {
+            margin-right: 20px;
+            border: 2px solid #F61067;
+        }
     }
 } //subheader-container
 
@@ -237,7 +288,6 @@ main {
 } //main
 
 .intro {
-
 } //intro
 
 .intro-container {
@@ -337,6 +387,15 @@ main {
             text-transform: uppercase;
 
             color: #FCFCFC;
+
+            border: 2px solid;
+            transition: background-color 0.5s, color 0.5s, border 0.5s;
+
+            &:hover {
+                background: #FCFCFC;
+                color: #F61067;
+                border: 2px solid #F61067;
+            }
         }
         
     } //.text-container
@@ -527,11 +586,24 @@ main {
             text-transform: uppercase;
 
             color: #FCFCFC;
+
+            border: 2px solid rgba(48,18,78,1);
+            transition: background-color 0.5s, color 0.5s, border 0.5s;
+
+            &:hover {
+                background: rgba(48,18,78,1);
+                color: #F61067;
+                border: 2px solid #F61067;
+            }
         }
     } //text-container
 
     .image-container {
         
+        .image-container__item {
+            display: flex;
+        }
+
         max-width: 558px;
         width: 100%;
 
@@ -556,7 +628,9 @@ main {
             /* Colors/Secondary_100 */
 
             color: #5E239D;
-            transform: rotate(90deg);
+            writing-mode: tb;
+            margin-top: auto;
+            margin-bottom: auto;
         }
 
         .slider-container {
@@ -567,6 +641,7 @@ main {
 
             margin-left: auto;
             margin-right: auto;
+            margin-top: 40px;
             padding-left: 130px;
 
             span {
@@ -591,6 +666,13 @@ main {
                 border: 1px solid white;
                 border-radius: 50%;
                 padding: 5%;
+
+                transition: border 0.5s, background-color 1s;
+
+                &:hover {
+                    border: 1px solid #F61067;
+                    background-color: #F61067;
+                }
             
             }
         }
@@ -601,7 +683,7 @@ main {
 
 .services {
     background-color:  #150433;
-    margin-top: -231px;
+    margin-top: -235px;
 
 } //services
 
@@ -758,6 +840,15 @@ main {
         padding: 1.15% 3.6%;
 
         color: #FCFCFC;
+
+        border: 2px solid #150433;
+        transition: background-color 0.5s, color 0.5s, border 0.5s;
+
+            &:hover {
+                background: #150433;
+                color: #F61067 ;
+                border: 2px solid #F61067 ;
+            }
     }
 
 } //services-container
@@ -836,18 +927,56 @@ main {
             justify-content: space-between;
 
             .prev {
+                .active {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
                 width: 36px;
                 height: 36px;
 
-                background: #F61067;
-                
                 border: 1px solid #F61067;
+                background: #FCFCFC;
                 box-sizing: border-box;
                 border-radius: 50%;
 
                 margin-top: auto;
                 margin-bottom: auto;
+
+                transform: rotate(180deg);
+
+                .hover {display: none;}
+
+                transition: background-color 0.5s;
+
+                &:hover {
+                    .hover{
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        transform: rotate(180deg);
+                    }
+
+                    .active {
+                        display: none;
+                    }
+
+                    width: 36px;
+                    height: 36px;
+
+                    background: #F61067;
+                    
+                    border: 1px solid #F61067;
+                    box-sizing: border-box;
+                    border-radius: 50%;
+
+                    margin-top: auto;
+                    margin-bottom: auto;
+                }
             }
+
+
 
             span {
                 max-width: 754px;
@@ -863,6 +992,12 @@ main {
             }
 
             .next {
+                .active {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
                 width: 36px;
                 height: 36px;
 
@@ -873,6 +1008,35 @@ main {
 
                 margin-top: auto;
                 margin-bottom: auto;
+
+                .hover {display: none;}
+
+                transition: background-color 0.5s;
+
+                &:hover {
+                    .hover{
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        transform: rotate(180deg);
+                    }
+
+                    .active {
+                        display: none;
+                    }
+
+                    width: 36px;
+                    height: 36px;
+
+                    background: #F61067;
+                    
+                    border: 1px solid #F61067;
+                    box-sizing: border-box;
+                    border-radius: 50%;
+
+                    margin-top: auto;
+                    margin-bottom: auto;
+                }
             }
         } //testimomial-text
 
@@ -939,11 +1103,12 @@ main {
 
         display: flex;
         justify-content: space-between;
-
-        border-bottom: 3px solid #F4F4ED;;
     }
 
     .input {
+        max-width: 331px;
+        width: 100%;
+
         font-family: Mplus 1p;
         font-style: normal;
         font-weight: 800;
@@ -955,6 +1120,13 @@ main {
         
         color: #9B94A3;
         border: none;
+        border-bottom: 3px solid #F4F4ED;
+
+        transition: border-bottom 0.5s;
+
+        &:hover {
+            border-bottom: 3px solid #F61067;
+        }
     }
 
     .submit {
@@ -979,6 +1151,13 @@ main {
 
         background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
         border: none;
+        border-bottom: 3px solid #F4F4ED;
+
+        transition: border-bottom 0.5s;
+
+        &:hover {
+            border-bottom: 3px solid #F61067;
+        }
         
     }
 
@@ -1081,7 +1260,7 @@ footer {
 
                     color: #FCFCFC;
 
-                    transition: font-size 0.5s;
+                    transition: font-size 0.5s, color 0.5s;
 
                     &:hover {
                         font-size: 14px;
@@ -1126,7 +1305,8 @@ footer {
                     text-decoration: none;
 
                     color: #FCFCFC;
-                    transition: font-size 0.5s;
+                    transition: font-size 0.5s, color 0.5s;
+                    
 
                     &:hover {
                         font-size: 14px;
@@ -1173,10 +1353,9 @@ footer {
 
                     color: #FCFCFC;
                     mix-blend-mode: normal;
-                    transition: font-size 0.5s;
+                    transition: color 0.5s;
 
                     &:hover {
-                        font-size: 17px;
                         color: #F61067;
                     }
 
