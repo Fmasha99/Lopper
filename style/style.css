@@ -1,4 +1,9 @@
-html, body {
+html {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
   margin: 0;
   font-family: 'M PLUS 1p', sans-serif;
   font-family: 'Noticia Text', serif;
@@ -284,6 +289,10 @@ header {
 .subheader-container:hover img {
   margin-right: 20px;
   border: 2px solid #F61067;
+}
+
+main {
+  scroll-behavior: smooth;
 }
 
 .intro-container {
