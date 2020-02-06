@@ -448,6 +448,8 @@ main {
 }
 
 .intro-container__item .image-container .main-image {
+  max-width: 406px;
+  width: 100%;
   position: absolute;
   padding-right: 244px;
   margin-top: 36px;
@@ -896,6 +898,7 @@ main {
 
 .testimonial-container .image-container .faces {
   max-width: 1268px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1180,6 +1183,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 64px;
 }
 
