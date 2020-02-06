@@ -776,6 +776,7 @@ main {
         align-items: center;
 
         .faces {
+            max-width: 1268px;
 
             margin-left: auto;
             margin-right: auto;
@@ -918,8 +919,11 @@ main {
         max-width: 558px;
         width: 100%;
 
+
+
         margin-left: auto;
         margin-right: auto;
+        margin-top: 45px;
 
         display: flex;
         justify-content: space-between;
@@ -944,22 +948,26 @@ main {
     .submit {
         max-width: 227px;
         width: 100%;
+        display: flex;
+        justify-content: space-around;
 
         font-family: Mplus 1p;
         font-style: normal;
         font-weight: 800;
         font-size: 12.6px;
         line-height: 26px;
-        display: flex;
+
         align-items: center;
         letter-spacing: 6px;
         text-transform: uppercase;
+
+        padding: 2.5% 0;
 
         color: #F61067;
 
         background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
         border: none;
-
+        
     }
 
 } //.newsletter

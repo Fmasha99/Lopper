@@ -737,6 +737,7 @@ header {
 }
 
 .testimonial-container .image-container .faces {
+  max-width: 1268px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -858,6 +859,7 @@ header {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -882,19 +884,22 @@ header {
 .newsletter .submit {
   max-width: 227px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   font-family: Mplus 1p;
   font-style: normal;
   font-weight: 800;
   font-size: 12.6px;
   line-height: 26px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   letter-spacing: 6px;
   text-transform: uppercase;
+  padding: 2.5% 0;
   color: #F61067;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 242, 242, 0.5)), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
