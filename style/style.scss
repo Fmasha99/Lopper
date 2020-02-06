@@ -971,3 +971,232 @@ main {
     }
 
 } //.newsletter
+
+
+footer {
+    background-color: #150433;
+}
+
+.footer-container {
+    max-width: 1440px;
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 126px;
+    padding-bottom: 124px;
+
+    .quote {
+        font-family: Mplus 1p;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11.7px;
+        line-height: 19px;
+        
+        color: #FCFCFC;
+
+        margin-left: 441px;
+        
+    }
+}
+
+.information-block {
+    display: flex;
+    margin-bottom: 64px;
+
+    .logo-container {
+        max-width: 166px;
+        width: 100%;
+
+        margin-left: 147px;
+        margin-right: 128px;
+
+        span {
+            font-family: Mplus 1p;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 43px;
+
+            letter-spacing: 2px;
+
+            color: #FCFCFC;
+        }
+
+        p {
+            font-family: Mplus 1p;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16.2px;
+            line-height: 26px;
+
+            color: #FCFCFC;
+        }
+    } //.logo-container
+
+    .menu-container {
+        span {
+            font-family: Mplus 1p;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 12.6px;
+            line-height: 28px;
+
+            border-bottom: 1px solid #F61067;
+
+            letter-spacing: 6px;
+            text-transform: uppercase;
+
+            color: #FCFCFC;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            li {
+
+                a {
+                    font-family: Mplus 1p Bold;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 12.6px;
+                    line-height: 28px;
+                    letter-spacing: 1px;
+
+                    text-decoration: none;
+
+                    color: #FCFCFC;
+                }
+            }
+        }
+    } //.menu-container
+
+    .service-container {
+        margin-left: 36px;
+        span {
+            font-family: Mplus 1p;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 12.6px;
+            line-height: 28px;
+
+            border-bottom: 1px solid #F61067;
+
+            letter-spacing: 6px;
+            text-transform: uppercase;
+
+            color: #FCFCFC;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            li {
+
+                a {
+                    font-family: Mplus 1p Bold;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 12.6px;
+                    line-height: 28px;
+                    letter-spacing: 1px;
+
+                    text-decoration: none;
+
+                    color: #FCFCFC;
+                }
+            }
+        }
+    } //services-container
+
+    .contact-us-container {
+        margin-left: 86px;
+
+        span {
+            font-family: Mplus 1p;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 12.6px;
+            line-height: 28px;
+
+            border-bottom: 1px solid #F61067;
+
+            letter-spacing: 6px;
+            text-transform: uppercase;
+
+            color: #FCFCFC;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            
+            li {
+
+                a {
+                    text-decoration: none;
+                    font-family: Mplus 1p;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16.2px;
+                    line-height: 26px;
+
+                    color: #FCFCFC;
+                    mix-blend-mode: normal;
+
+                   
+                }
+                #mail {
+                    width: 12px;
+                    background: url('../assets/img/mail\ footer.png') no-repeat;
+                    background-position-y: center;
+                    padding-left: 30px;
+                }
+
+                #tel {
+                    width: 9px;
+                    background: url('../assets/img/phone\ footer.png') no-repeat;
+                    background-position-y: center;
+                    padding-left: 30px;
+                }
+            }
+        }
+    } //contact-us-container
+
+    .follow-us-container {
+        margin-left: 128px;
+        max-width: 264px;
+        width: 100%;
+
+        span {
+            font-family: Mplus 1p;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 12.6px;
+            line-height: 28px;
+
+            border-bottom: 1px solid #F61067;
+
+            letter-spacing: 6px;
+            text-transform: uppercase;
+
+            color: #FCFCFC;
+        }
+        
+        ul {
+            padding: 0;
+
+            list-style-type: none;
+
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+    } //.follow-us-container
+} //information-block
+
+
