@@ -1,0 +1,122 @@
+@media (max-width: 795px) {
+  .header-wrapper {
+    max-width: 435px;
+  }
+  .header-container {
+    max-width: 435px;
+    margin-top: 80px;
+  }
+  .header-container .header-line {
+    max-width: 430px;
+  }
+  .header-container .headline-container .headline {
+    font-size: 82px;
+  }
+  .subheader-container {
+    margin-top: 44px;
+    margin-left: -65px;
+  }
+  .subheader-container .subheader {
+    margin-left: 105px;
+  }
+  .intro-container__item .image-container .background-image {
+    display: none;
+  }
+  .intro-container__item .image-container .main-image {
+    padding: 0;
+    margin-left: 13%;
+  }
+  .intro-container__item .image-container .quote-text {
+    max-width: 290px;
+    margin-top: 394px;
+    margin-left: 45%;
+  }
+  .intro-container__item .image-container .quote-text .open {
+    font-size: 80px;
+    line-height: 110px;
+  }
+  .intro-container__item .image-container .quote-text .close {
+    font-size: 80px;
+    line-height: 110px;
+  }
+  .intro-container__item .text-container {
+    max-width: 468px;
+    width: 100%;
+    padding-left: 3%;
+  }
+  .benefits-container__item .image-container .image-container__item img {
+    max-width: 445px;
+  }
+  .benefits-container__item .image-container .slider-container {
+    margin-left: 10%;
+  }
+  .benefits-container__item .text-container {
+    padding-bottom: 13%;
+  }
+  .benefits-container__item .text-container .text-container {
+    font-size: 38px;
+    line-height: 45px;
+  }
+  .benefits-container__item .text-container .title {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .benefits-container__item .text-container .subtitle p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .benefits-container__item .text-container button {
+    max-width: 197px;
+  }
+  .services-container {
+    padding-top: 10%;
+  }
+  .services-container .text-container {
+    max-width: 494px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .testimonial-container .image-container .faces {
+    max-width: 748px;
+    margin-top: 12%;
+  }
+  .testimonial-container .text-container {
+    margin-top: 88px;
+    padding-bottom: 59px;
+  }
+  .testimonial-container .text-container .testimonial-text {
+    max-width: 443px;
+    width: 100%;
+    margin-top: 1%;
+  }
+  .testimonial-container .text-container .testimonial-text span {
+    max-width: 346px;
+    font-size: 23px;
+    line-height: 39px;
+  }
+  .testimonial-container .text-container span {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .newsletter {
+    text-align: center;
+  }
+  .newsletter span {
+    font-size: 26px;
+  }
+  .newsletter p {
+    font-size: 15px;
+  }
+  .newsletter .form {
+    max-width: 450px;
+  }
+  .newsletter .form .input {
+    max-width: 325px;
+    font-size: 15px;
+  }
+  .newsletter .form .submit {
+    max-width: 221px;
+    font-size: 11.6px;
+  }
+}
+/*# sourceMappingURL=tablet.css.map */

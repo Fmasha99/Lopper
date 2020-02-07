@@ -3,9 +3,13 @@
     .header-wrapper {
         padding-left: 1%;
         padding-right: 1%;
+
+        max-width: 772px;
     }
 
     .header-line {
+
+        max-width: 742px;
 
         nav {
             display: none;
@@ -17,10 +21,22 @@
     }
 
     .header-container {
+        max-width: 767px;
         .scroll-container {
             display: none;
         }
+        .headline-container {
+            max-width: 771px;
 
+            .headline {
+                font-size: 91px;
+            }
+        }
+
+    }
+
+    .subheader-container {
+        margin-left: -175px;
     }
 
     .intro-container__item {
@@ -68,7 +84,6 @@
                 width: 100%;
                 position: absolute;
 
-                padding-right: 244px;
                 margin-top: 36px;
 
 
@@ -199,7 +214,7 @@
 
             .testimonial-text {
 
-                max-width: 777px;
+                max-width: 745px;
                 width: 100%;
             }
         } //text-container

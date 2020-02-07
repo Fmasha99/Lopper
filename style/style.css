@@ -52,6 +52,7 @@ header {
 
 .header-wrapper {
   max-width: 1440px;
+  width: 100%;
   height: 828px;
   margin-left: auto;
   margin-right: auto;
