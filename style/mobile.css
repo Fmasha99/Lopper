@@ -1,0 +1,146 @@
+@media (max-width: 495px) {
+  header {
+    height: 100vh;
+  }
+  .header-container .headline-container p {
+    margin-bottom: 30%;
+  }
+  .header-container .headline-container .headline {
+    font-size: 60px;
+    line-height: 72px;
+  }
+  .subheader-container {
+    display: none;
+  }
+  .intro-container__item {
+    margin-top: -50px;
+  }
+  .intro-container__item .image-container .main-image {
+    max-width: 240px;
+  }
+  .intro-container__item .image-container .quote-text {
+    max-width: 145px;
+    margin-top: 290px;
+    margin-left: 53%;
+  }
+  .intro-container__item .image-container .quote-text .open {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .intro-container__item .image-container .quote-text p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .intro-container__item .image-container .quote-text .close {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .intro-container__item .text-container {
+    max-width: 310px;
+    margin-top: 510px;
+  }
+  .intro-container__item .text-container .intro-headline {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .intro-container__item .text-container .title {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .intro-container__item .text-container .subtitle {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .intro-container__item .text-container button {
+    max-width: 169px;
+    margin-bottom: 80px;
+  }
+  .benefits-container__item .image-container {
+    margin-top: 30px;
+  }
+  .benefits-container__item .image-container .image-container__item img {
+    max-width: 253px;
+  }
+  .benefits-container__item .image-container .slider-container {
+    margin-top: 12px;
+  }
+  .benefits-container__item .text-container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .benefits-container__item .text-container .benefits-headline {
+    font-size: 40px;
+    line-height: 49px;
+  }
+  .benefits-container__item .text-container .title {
+    font-size: 15px;
+    line-height: 23px;
+    margin-top: 40px;
+  }
+  .benefits-container__item .text-container .subtitle {
+    margin-top: 30px;
+  }
+  .benefits-container__item .text-container .subtitle p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .benefits-container__item .text-container button {
+    max-width: 155px;
+  }
+  .services-container {
+    padding-top: 25%;
+  }
+  .services-container .text-container {
+    max-width: 307px;
+  }
+  .services-container .text-container .services-headline {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .services-container .text-container .title {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .services-container ul li {
+    margin-top: 15px;
+  }
+  .services-container ul li p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .services-container button {
+    max-width: 155px;
+  }
+  .testimonial-container .image-container .faces {
+    display: none;
+  }
+  .testimonial-container .image-container .main {
+    max-width: 285px;
+  }
+  .testimonial-container .image-container .quotes {
+    margin-top: 126px;
+    max-width: 70px;
+  }
+  .testimonial-container .text-container {
+    margin-top: 220px;
+  }
+  .testimonial-container .text-container .testimonial-text {
+    max-width: 300px;
+  }
+  .testimonial-container .text-container .testimonial-text span {
+    max-width: 205px;
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .testimonial-container .text-container span {
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .newsletter {
+    margin-top: 75px;
+  }
+  .newsletter span {
+    line-height: 40px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

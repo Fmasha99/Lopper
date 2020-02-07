@@ -1,0 +1,204 @@
+@media (max-width: 495px) {
+
+    header {
+        height: 100vh;
+    }
+    .header-container {
+        .headline-container { 
+            p {
+                margin-bottom: 30%;
+            }
+            .headline {
+                font-size: 60px;
+                line-height: 72px;
+            }
+        }
+    } //.header-container
+
+    .subheader-container {
+        display: none;
+    }
+
+    .intro-container__item {
+        margin-top: -50px;
+
+        .image-container {
+            .main-image {
+                max-width: 240px;
+            }
+
+            .quote-text {
+                max-width: 145px;
+                margin-top: 290px;
+                margin-left: 53%;
+
+                .open {
+                    font-size: 50px;
+                    line-height: 70px;
+                }
+                
+                p {
+                    font-size: 13px;
+                    line-height: 22px;
+                }
+
+                .close {
+                    font-size: 50px;
+                    line-height: 70px;
+                }
+            }
+        } //.image-container
+
+        .text-container {
+            max-width: 310px;
+            margin-top: 510px;
+
+            .intro-headline {
+                font-size: 40px;
+                line-height: 55px;
+            }
+
+            .title {
+                font-size: 15px;
+                line-height: 23px;
+            }
+
+            .subtitle {
+                font-size: 13px;
+                line-height: 22px;
+            }
+
+            button {
+                max-width: 169px;
+                margin-bottom: 80px;
+            }
+        }
+    } //.intro-container__item
+
+    .benefits-container__item {
+
+        .image-container {
+            margin-top: 30px;
+
+            .image-container__item {
+
+                img {
+                    max-width: 253px;
+                }
+            }
+
+            .slider-container {
+                margin-top: 12px;
+            }
+        } //.image-container
+
+        .text-container {
+            padding-left: 15%;
+            padding-right: 15%;
+
+            .benefits-headline {
+                font-size: 40px;
+                line-height: 49px;
+            }
+
+            .title {
+                font-size: 15px;
+                line-height: 23px;
+                margin-top: 40px;
+            }
+
+            .subtitle {
+
+                margin-top: 30px;
+
+                p {
+                    font-size: 13px;
+                    line-height: 18px;
+                }
+            }
+
+            button {
+                max-width: 155px;
+            }
+        }
+    } //.benefits-container__item
+
+    .services-container {
+        padding-top: 25%;
+
+        .text-container {
+            max-width: 307px;
+
+            .services-headline {
+                font-size: 40px;
+                line-height: 60px;
+            }
+
+            .title {
+                font-size: 15px;
+                line-height: 25px;
+                
+            }
+        }
+
+        ul {
+            li {
+                margin-top: 15px;
+
+                p {
+                    font-size: 13px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        button {
+            max-width: 155px;
+        }
+    } //.services-container
+
+    .testimonial-container {
+
+        .image-container {
+            .faces {
+                display: none;
+            }
+
+            .main {
+                max-width: 285px;
+            }
+
+            .quotes {
+                margin-top: 126px;
+                max-width: 70px;
+            }
+        } //.image-container
+
+        .text-container {
+            margin-top: 220px;
+
+            .testimonial-text {
+                max-width: 300px;
+
+                span {
+                    max-width: 205px;
+                    font-size: 20px;
+                    line-height: 29px;
+                }
+            }
+
+            span {
+                font-size: 13px;
+                line-height: 25px;
+            }
+        }
+    } //.testimonial-container
+
+    .newsletter {
+        margin-top: 75px;
+
+        span {
+            line-height: 40px;
+        }
+    } //.newsletter
+}
