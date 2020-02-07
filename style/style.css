@@ -108,8 +108,8 @@ header {
   text-decoration: none;
   letter-spacing: 2px;
   color: #FCFCFC;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: font-size 0.5s, color 0.5s;
+  transition: font-size 0.5s, color 0.5s;
 }
 
 .header-line nav a:hover {
@@ -153,11 +153,107 @@ header {
   color: #F61067;
 }
 
-.header-line img {
-  height: 16px;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-right: 1%;
+.header-line #menu__toggle {
+  opacity: 0;
+}
+
+.header-line #menu__toggle:checked ~ .menu__btn > span {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.header-line #menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+.header-line #menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.header-line #menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+}
+
+.header-line .menu__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 68px;
+  margin-left: -14px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.header-line .menu__btn > span,
+.header-line .menu__btn > span::before,
+.header-line .menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #FCFCFC;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s;
+}
+
+.header-line .menu__btn > span:hover,
+.header-line .menu__btn > span::before:hover,
+.header-line .menu__btn > span::after:hover {
+  background-color: #F61067;
+}
+
+.header-line .menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+
+.header-line .menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+.header-line .menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: 0;
+  width: 300px;
+  max-height: 828px;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #35145a60;
+  -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s;
+}
+
+.header-line .menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #FCFCFC;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s;
+}
+
+.header-line .menu__item:hover {
+  background-color: rgba(246, 16, 104, 0.411);
 }
 
 .header-container {
