@@ -69,6 +69,8 @@ header {
   margin-left: auto;
   margin-right: auto;
   padding-top: 61px;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .header-line .logo {
@@ -155,6 +157,7 @@ header {
   height: 16px;
   margin-top: auto;
   margin-bottom: auto;
+  padding-right: 1%;
 }
 
 .header-container {
@@ -167,6 +170,8 @@ header {
   margin-top: 138px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1%;
+  padding-right: 1%;
   max-width: 1169px;
   width: 100%;
 }
@@ -217,6 +222,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  padding-right: 1%;
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
@@ -333,6 +339,8 @@ main {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .intro-container__item {
@@ -924,7 +932,7 @@ main {
   padding-bottom: 136px;
 }
 
-.testimonial-container .text-container .testimomial-text {
+.testimonial-container .text-container .testimonial-text {
   max-width: 1144px;
   width: 100%;
   margin-left: auto;
@@ -938,7 +946,7 @@ main {
           justify-content: space-between;
 }
 
-.testimonial-container .text-container .testimomial-text .prev {
+.testimonial-container .text-container .testimonial-text .prev {
   width: 36px;
   height: 36px;
   border: 1px solid #F61067;
@@ -954,17 +962,17 @@ main {
   transition: background-color 0.5s;
 }
 
-.testimonial-container .text-container .testimomial-text .prev .active {
+.testimonial-container .text-container .testimonial-text .prev .active {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.testimonial-container .text-container .testimomial-text .prev .hover {
+.testimonial-container .text-container .testimonial-text .prev .hover {
   display: none;
 }
 
-.testimonial-container .text-container .testimomial-text .prev:hover {
+.testimonial-container .text-container .testimonial-text .prev:hover {
   width: 36px;
   height: 36px;
   background: #F61067;
@@ -976,7 +984,7 @@ main {
   margin-bottom: auto;
 }
 
-.testimonial-container .text-container .testimomial-text .prev:hover .hover {
+.testimonial-container .text-container .testimonial-text .prev:hover .hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -984,11 +992,11 @@ main {
           transform: rotate(180deg);
 }
 
-.testimonial-container .text-container .testimomial-text .prev:hover .active {
+.testimonial-container .text-container .testimonial-text .prev:hover .active {
   display: none;
 }
 
-.testimonial-container .text-container .testimomial-text span {
+.testimonial-container .text-container .testimonial-text span {
   max-width: 754px;
   font-family: Noticia Text;
   font-style: italic;
@@ -999,7 +1007,7 @@ main {
   color: #30233D;
 }
 
-.testimonial-container .text-container .testimomial-text .next {
+.testimonial-container .text-container .testimonial-text .next {
   width: 36px;
   height: 36px;
   border: 1px solid #F61067;
@@ -1013,17 +1021,17 @@ main {
   transition: background-color 0.5s;
 }
 
-.testimonial-container .text-container .testimomial-text .next .active {
+.testimonial-container .text-container .testimonial-text .next .active {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.testimonial-container .text-container .testimomial-text .next .hover {
+.testimonial-container .text-container .testimonial-text .next .hover {
   display: none;
 }
 
-.testimonial-container .text-container .testimomial-text .next:hover {
+.testimonial-container .text-container .testimonial-text .next:hover {
   width: 36px;
   height: 36px;
   background: #F61067;
@@ -1035,7 +1043,7 @@ main {
   margin-bottom: auto;
 }
 
-.testimonial-container .text-container .testimomial-text .next:hover .hover {
+.testimonial-container .text-container .testimonial-text .next:hover .hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1043,7 +1051,7 @@ main {
           transform: rotate(180deg);
 }
 
-.testimonial-container .text-container .testimomial-text .next:hover .active {
+.testimonial-container .text-container .testimonial-text .next:hover .active {
   display: none;
 }
 
